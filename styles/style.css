@@ -69,15 +69,15 @@ main #section_1 .item .img_bg {
 }
 
 main #section_1 .item .img_bg_1 {
-  background: url(../resources/pexels-rodnae-productions-7683910.jpg);
+  background: url("../resources/pexels-rodnae-productions-7683910.jpg");
 }
 
 main #section_1 .item .img_bg_2 {
-  background: url(../resources/pexels-rodnae-productions-7683910.jpg);
+  background: url("../resources/pexels-rodnae-productions-7683910.jpg");
 }
 
 main #section_1 .item .img_bg_3 {
-  background: url(../resources/pexels-rodnae-productions-7683910.jpg);
+  background: url("../resources/pexels-rodnae-productions-7683910.jpg");
 }
 
 main #section_1 .item .text-field {
