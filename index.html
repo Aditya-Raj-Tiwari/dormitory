@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Überseekolleg</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -17,29 +17,48 @@
 
 <body>
     <header>
-        <div class="container row">
-            <div class="col logo_portion">
+        <div class="container row logo_portion mt-2">
+            <div class="col">
                 <picture>
                     <source media="(min-width:650px)" srcset="/resources/home-2.svg">
                     <source media="(min-width:1080px)" srcset="/resources/home-2.svg">
                     <source media="(min-width:1600px)" srcset="/resources/home-2.svg">
-                    <img src="/resources/home-2.svg" alt="">
+                    <img src="/resources/home-2.svg" alt="logo">
                 </picture>
             </div>
             <div class="col">
-                <a href="" class="header_link"></a>
-                <a href="" class="header_link"></a>
-                <a href="" class="header_link"></a>
-                <a href="" class="header_link"></a>
-                <a href="" class="header_link"></a>
+                <a href="" class="header_link">überuns</a>
+                <a href="" class="header_link">überuns</a>
+                <a href="" class="header_link">überuns</a>
+                <a href="" class="header_link">überuns</a>
+                <span href="" class="header_link">
+                    <a href="">en</a>
+                    <span>|</span>
+                    <a href="">de</a>
+                </span>
             </div>
         </div>
     </header>
     <main>
         <div class="owl-carousel-header owl-theme">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div class="item carousel_full">
+                <div class="img_bg_1">
+                    <picture>
+                        <img class="img-fluid" src="/resources/pexels-rodnae-productions-7683910.jpg" alt="">
+                    </picture>
+                    <span>Text</span>
+                </div>
+            </div>
+            <div class="item carousel_full">
+                <div class="img_bg_2">
+                    <span>Text</span>
+                </div>
+            </div>
+            <div class="item carousel_full">
+                <div class="img_bg_3">
+                    <span>Text</span>
+                </div>
+            </div>
         </div>
         <picture>
             <source media="(min-width:650px)" srcset="/resources/arrow-down.svg">

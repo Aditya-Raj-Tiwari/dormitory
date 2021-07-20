@@ -1,3 +1,34 @@
-html{
+html {
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.logo_portion {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+
+    .col:nth-child(2) {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header_link {
+        color: #fff;
+        margin-right: 30px;
+        text-decoration: none;
+    }
+}
+
+.carousel_full {
+
+    .img_bg_1 img {}
+
+}
+
+main {
+    .owl-main-height {
+        height: 100vh;
+    }
 }
