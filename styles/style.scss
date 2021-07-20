@@ -21,14 +21,46 @@ html {
     }
 }
 
-.carousel_full {
-
-    .img_bg_1 img {}
-
-}
 
 main {
-    .owl-main-height {
-        height: 100vh;
+
+    .item {
+        .img_bg {
+            content: ""; // ::before and ::after both require content
+            width: 100vw;
+            height: 100vh;
+            background-size: cover !important;
+        }
+
+        .img_bg_1 {
+            background: url(/resources/pexels-rodnae-productions-7683910.jpg);
+        }
+
+        .img_bg_2 {
+            background: url(/resources/pexels-rodnae-productions-7683910.jpg);
+        }
+
+        .img_bg_3 {
+            background: url(/resources/pexels-rodnae-productions-7683910.jpg);
+        }
+
+        span {
+            position: absolute;
+            left: 50%;
+            bottom: 160px;
+            color: #fff;
+        }
     }
+
+    .img_bg::after {
+        content: ""; // ::before and ::after both require content
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(120deg, #111110, #062b36);
+        opacity: .6;
+    }
+
 }
