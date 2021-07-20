@@ -10,27 +10,54 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
 </head>
 
 <body>
     <header>
         <div class="container row">
-            <div class="col logo">
+            <div class="col logo_portion">
                 <picture>
-                    <source srcset="">
-                    <img src="" alt="">
+                    <source media="(min-width:650px)" srcset="/resources/home-2.svg">
+                    <source media="(min-width:1080px)" srcset="/resources/home-2.svg">
+                    <source media="(min-width:1600px)" srcset="/resources/home-2.svg">
+                    <img src="/resources/home-2.svg" alt="">
                 </picture>
             </div>
-            <div class="col"></div>
+            <div class="col">
+                <a href="" class="header_link"></a>
+                <a href="" class="header_link"></a>
+                <a href="" class="header_link"></a>
+                <a href="" class="header_link"></a>
+                <a href="" class="header_link"></a>
+            </div>
         </div>
     </header>
     <main>
-
+        <div class="owl-carousel-header owl-theme">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <picture>
+            <source media="(min-width:650px)" srcset="/resources/arrow-down.svg">
+            <source media="(min-width:1080px)" srcset="/resources/arrow-down.svg">
+            <source media="(min-width:1600px)" srcset="/resources/arrow-down.svg">
+            <img src="/resources/arrow-down.svg" alt="">
+        </picture>
     </main>
     <footer>
 
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html>
