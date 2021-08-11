@@ -17,8 +17,8 @@
 
 <body>
     <header>
-        <div class="container row logo_portion mt-2">
-            <div class="col">
+        <div class="container row logo_portion mt-4 mt-md-3">
+            <div class="col-2 col-lg-6">
                 <picture>
                     <source media="(min-width:650px)" srcset="./resources/home-2.svg">
                     <source media="(min-width:1080px)" srcset="./resources/home-2.svg">
@@ -26,7 +26,7 @@
                     <img src="./resources/home-2.svg" alt="logo">
                 </picture>
             </div>
-            <div class="col">
+            <div class="col-10 col-lg-6">
                 <a href="" class="header_link">überuns</a>
                 <a href="" class="header_link">überuns</a>
                 <a href="" class="header_link">überuns</a>
@@ -76,14 +76,99 @@
 
 
         <div id="section_2">
-
+            <div class="container">
+                <div class="float_card one my-5 py-5 d-block">
+                    <div class="image_holder">
+                        <img src="./resources/pexels-rodnae-productions-7683910.jpg" alt="">
+                    </div>
+                    <div class="text_part">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam ipsam est
+                            deleniti </p>
+                    </div>
+                </div>
+                <div class="float_card two my-5 py-5 d-block">
+                    <div class="image_holder">
+                        <img src="./resources/pexels-rodnae-productions-7683910.jpg" alt="">
+                    </div>
+                    <div class="text_part">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam ipsam est
+                            deleniti </p>
+                    </div>
+                </div>
+                <div class="float_card one my-5 my-5">
+                    <div class="image_holder">
+                        <img src="./resources/pexels-rodnae-productions-7683910.jpg" alt="">
+                    </div>
+                    <div class="text_part">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam ipsam est
+                            deleniti </p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div id="section_3" class="container text-center my-4 py-4">
+            <hr>
+            <div class="wrapper">
+                <div class="container">
+                    <h2>FAQs</h2>
+                    <div class="faq-group mt-4">
+                        <div class="faq-row">
+                            <div class="wrap-collapsible">
+                                <input class="toggle" type="checkbox" id="collapsible" checked="checked" />
+                                <label class="label-toggle" for="collapsible">Manage and Grow Your Business
+                                    Online</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        <p>We offer over 200 Apps and services you can add to your website, like
+                                            Bookings, Stores, Forum, Restaurants, Events, easy email marketing and more.
+                                            No matter what your website or business needs are—you can manage it all in
+                                            one place.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-row">
+                            <div class="wrap-collapsible">
+                                <input class="toggle" type="checkbox" id="collapsible-2" />
+                                <label class="label-toggle" for="collapsible-2">Get Inspired by Other Sites Made</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        <p>Choose from over 500 stunning templates or start from scratch. Customize
+                                            anything with drag and drop to look exactly the way you want. Make your
+                                            website stand out with design features like media galleries, video
+                                            backgrounds, parallax scroll, animation and more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-row">
+                            <div class="wrap-collapsible">
+                                <input class="toggle" type="checkbox" id="collapsible-3" />
+                                <label class="label-toggle" for="collapsible-3">5 Essential Tools to Use With Your
+                                    Business Site</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        <p>Whether you want to display your photography portfolio, open an online store,
+                                            or build a site for your hotel and accept reservations, Wix has something
+                                            for you. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </main>
     <footer>
 
     </footer>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async>
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
         integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
